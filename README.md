@@ -4,7 +4,7 @@
 
 Первый прогон дал accuracy 0,77, что совпадает с публичными решениями по этому датасету (там обычно фигурирует цифра около 80%). Разобравшись в структуре данных, я понял, что эта цифра завышена утечкой, и дальше проект был про то, чтобы её измерить и убрать.
 
-**Стек:** Python, pandas, NumPy, scikit-learn (Pipeline, ColumnTransformer, GroupShuffleSplit, HistGradientBoostingClassifier, LogisticRegression, permutation_importance), matplotlib, Jupyter.
+**Стек:** Python, pandas, NumPy, scikit-learn (Pipeline, ColumnTransformer, GroupShuffleSplit, HistGradientBoostingClassifier, LogisticRegression, permutation_importance), matplotlib, Jupyter, classic ml.
 
 ## Что не так с публичными решениями
 
